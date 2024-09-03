@@ -1,0 +1,23 @@
+{
+    "outputFile": "HackPack.txt",
+    "codes": [
+      {
+        "name": "KirbSprintWithB",
+        "authors": [
+          "Uncle Punch",
+          "KAR Modding Old Gaurd"
+        ],
+        "description": [
+          "Makes Kirb go burrrrrr with B"
+        ],
+        "build": [
+          {
+            "type": "inject",
+            "address": "801B8F60",
+            "sourceFile": "Misc/Holding B Makes Kirby Run 2x as Fast [UnclePunch].asm",
+            "annotation": "Kirb go burrrrrrr"
+          }
+        ]
+      }
+    ]
+}

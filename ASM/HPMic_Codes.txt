@@ -1,0 +1,3 @@
+$SkipTutorialVideo [Uncle Punch, KAR Modding Old Gaurd]
+*Skips the tutorial video
+04452798 38600000 #Skip the home videos, we're vertan players! | Misc/SkipTutorialVideo.asm
