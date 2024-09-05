@@ -1,0 +1,51 @@
+
+TODO:
+- sis index check to avoid crash on Vehicle Select
+- add rider selection to city trial
+
+
+Bugs:
+- after wheel ability (and wing?) the vehicle id is wrong
+
+- preview image is wrong when player edits cpus vehicles data
+- default selected vehicle is wrong when you re-enter menu
+- cpus select vehicles outside of range? (the preview icon doesn't match the vehicle they choose)
+	-fixed in air ride
+
+
+- make new vehicles spawn in city trial (figure out easy to expand system)
+
+city trial crash:
+
+- unk star table 804b8854 stride 14 -0x7fb477ac
+- unk wheel table 804b89d0 stride 14 -0x7fb47630
+- unk runtime table 805dd868 stride 8 (StaticCityTrialVehicleGObjList) (expand this function 801dfe94)
+
+Loading star 13?
+46:42:304 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: Loading Vehicle 0 13 81242C34
+46:44:964 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: DATE Aug 18 2003  TIME 16:53:51
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: ROM 0308181653 Dist us DbLevel 0
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: - STACK ---------------------------------------------
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]:  Address:  Back Chain  LR Save
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F5FE8:   805F6088   80263A0C
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6088:   805F6108   80275554
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6108:   805F61F8   802726B4
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F61F8:   805F6208   80271748
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6208:   805F6218   8026BF0C
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6218:   805F6228   80275C80
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6228:   805F6238   8018FC84
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6238:   805F6268   80429FD8
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6268:   805F6288   80006A14
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6288:   805F6298   80006BE4
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6298:   805F62A8   80008D34
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F62A8:   805F62C8   800086F8
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F62C8:   805F6388   80005CA4
+46:44:965 HW\EXI\EXI_DeviceIPL.cpp:343 N[OSREPORT]: 805F6388:   FFFFFFFF   80005398
+
+
+
+
+Custom Rider System:
+- disable inhale
+	-LoadPendingAbility1
+	-LoadPendingAbility2

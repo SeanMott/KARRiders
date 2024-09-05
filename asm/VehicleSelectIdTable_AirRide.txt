@@ -1,0 +1,53 @@
+- 80020658		addi r31,r3,0x10a	44: pbVar8[0x61] = (&(pgVar4->menu_vehicle_data).vehicle_select_index_table)[(char)pbVar8[0x2d]];
+80020acc		extsb r5,r26	68: (&field_10A->vehicle_select_index_table)[(char)num_of_airride_vehicles] = bVar8;
+80020acc		extsb r5,r26	69: FUN_80133f48((&field_10A->vehicle_select_index_table)[(char)num_of_airride_vehicles],
+800214c8		stbx r3,field_10A,r0	500: (&field_10A->vehicle_select_index_table)[i] = bVar8;
+8002151c	LAB_8002151c	extsb num_of_airride_vehicles,r6	516: (&field_10A->vehicle_select_index_table)[cVar10] = *pbVar7;
+80021530		addi r0,num_of_airride_vehicles,0x1	518: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\x01')] = pbVar7[1];
+80021544		addi r0,num_of_airride_vehicles,0x2	519: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\x02')] = pbVar7[2];
+80021550		addi r0,num_of_airride_vehicles,0x3	520: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\x03')] = pbVar7[3];
+80021554		addi r7,num_of_airride_vehicles,0x4	521: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\x04')] = pbVar7[4];
+80021564		addi r0,num_of_airride_vehicles,0x5	522: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\x05')] = pbVar7[5];
+80021570		addi r0,num_of_airride_vehicles,0x6	523: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\x06')] = pbVar7[6];
+80021584		addi r0,num_of_airride_vehicles,0x7	526: (&field_10A->vehicle_select_index_table)[(char)(cVar10 + '\a')] = *pbVar1;
+800215d0	LAB_800215d0	extsb r3,r6	535: (&field_10A->vehicle_select_index_table)[cVar9] = bVar8;
+- 8002161c		extsb r4,r26	547: FUN_80133f48((&field_10A->vehicle_select_index_table)[i],(int)(char)i);
+800236bc		lbz r0,0x2d(r29)	37: pbVar11[0x61] = (&pgVar13->vehicle_select_index_table)[(char)pbVar11[0x2d]];
+- 80023838		addi r25,r3,0x10a	91: (&(pgVar3->menu_vehicle_data).vehicle_select_index_table)
+80023abc		addi r26,r3,0x10a	86: (&(pgVar3->menu_vehicle_data).vehicle_select_index_table)
+- 80023e20		lbz r0,0x2d(r30)	150: (&pgVar15->vehicle_select_index_table)[(char)pbVar14[0x2d]];
+- 80023e6c		lbz r0,0x2d(r4)	156: FUN_80133fa8(cVar1,(&pgVar11->vehicle_select_index_table)
+- 80023e90	LAB_80023e90	extsb r0,r27	162: FUN_80134388(cVar1,param_1,(&pgVar15->vehicle_select_index_table)[(char)bVar12]);
+80024560		lbz r0,0x2d(r4)	219: FUN_80133fa8(param_1,(&pgVar9->vehicle_select_index_table)
+800245f0		lbz r0,0x2d(r4)	240: pbVar11[0x61] = (&pgVar16->vehicle_select_index_table)[(char)pbVar11[0x2d]];
+800247a8		lbz r0,0x2d(r4)	293: FUN_80133fa8(param_1,(&pgVar9->vehicle_select_index_table)
+80024a54		lbz r0,0x2d(r4)	372: (&pgVar16->vehicle_select_index_table)[*(char *)(&pgVar16->field_0x2d + iVar17)]);
+80024c48		addi r25,r3,0x10a	441: (&(pgVar8->menu_vehicle_data).vehicle_select_index_table)
+800250d8		lbz r0,0x2d(r4)	338: FUN_80133fa8(cVar7,(&pgVar12->vehicle_select_index_table)
+8002537c		lbz r0,0x2d(r4)	154: FUN_80133fa8(cVar7,(&pgVar12->vehicle_select_index_table)
+80025bf4		lbz r0,0x2d(r4)	349: FUN_80133fa8(cVar1,(&pgVar16->vehicle_select_index_table)
+800264a4		lbz r0,0x2d(r4)	151: (&pgVar22->vehicle_select_index_table)[*(char *)(&pgVar22->field_0x2d + iVar18)])
+80026544		lbz r3,0x2d(r22)	269: pbVar14[0x61] = (&pgVar22->vehicle_select_index_table)[(char)pbVar14[0x2d]];
+80026704		lbz r0,0x2d(r4)	322: FUN_80133fa8(bVar1,(&pgVar13->vehicle_select_index_table)
+800267d4	LAB_800267d4	lbz r0,0x2d(r23)	348: FUN_80134388(bVar1,param_1,(&pgVar22->vehicle_select_index_table)[(char)pbVar14[0x2d]]);
+80026a7c		lbz r0,0x2d(r4)	428: FUN_80133fa8(bVar1,(&pgVar13->vehicle_select_index_table)
+80026ca8		lbz r0,0x2d(r4)	218: FUN_80133fa8(bVar1,(&pgVar13->vehicle_select_index_table)
+8002742c		addi r19,r3,0x10a	167: FUN_80133fa8(bVar14,(&(pgVar9->menu_vehicle_data).vehicle_select_index_table)
+8002765c		addi r19,r3,0x10a	239: FUN_80133fa8(bVar14,(&(pgVar9->menu_vehicle_data).vehicle_select_index_table)
+800278b4		addi r19,r3,0x10a	327: FUN_80133fa8(iVar7,(&(pgVar9->menu_vehicle_data).vehicle_select_index_table)
+80028320		lbz r0,0x2d(r22)	203: FUN_80134388(bVar7,uVar16,(&pgVar17->vehicle_select_index_table)[(char)pbVar12[0x2d]]);
+8002862c		addi r30,r3,0x10a	34: pcVar5 = (char *)FUN_8000b9dc((&(pgVar2->menu_vehicle_data).vehicle_select_index_table)
+80029298		lbz r0,0x2d(r29)	624: FUN_80134388(bVar22,iVar5,(&pgVar26->vehicle_select_index_table)[(char)pbVar15[0x2d]])
+80029428		addi r23,r3,0x10a	676: FUN_80133fa8(iVar5,(&(pgVar8->menu_vehicle_data).vehicle_select_index_table)
+80029714		addi r5,r3,0x10a	250: if ((&(pgVar8->menu_vehicle_data).vehicle_select_index_table)[iVar13] == bVar11) {
+80029714		addi r5,r3,0x10a	261: if ((&(pgVar8->menu_vehicle_data).vehicle_select_index_table)[iVar7] == 1) {
+800297a8		addi r4,r3,0x10a	283: if ((&(pgVar8->menu_vehicle_data).vehicle_select_index_table)[iVar13] == 1) {
+800297a8		addi r4,r3,0x10a	294: if ((&(pgVar8->menu_vehicle_data).vehicle_select_index_table)[iVar7] == 1) {
+80029894		lbz r0,0x2d(r29)	314: pbVar15[0x61] = (&pgVar26->vehicle_select_index_table)[(char)pbVar15[0x2d]];
+800299cc		addi r23,r3,0x10a	371: FUN_80133fa8(bVar22,(&(pgVar8->menu_vehicle_data).vehicle_select_index_table)
+80029a8c		lbz r0,0x2d(r29)	388: FUN_80134388(bVar22,iVar5,(&pgVar26->vehicle_select_index_table)[(char)pbVar15[0x2d]]);
+80029f28		addi r5,r3,0x10a	169: if ((&(pgVar3->menu_vehicle_data).vehicle_select_index_table)[iVar6] == bVar5) {
+80029f28		addi r5,r3,0x10a	180: if ((&(pgVar3->menu_vehicle_data).vehicle_select_index_table)[iVar16] == 1) {
+80029fec		lbz r0,0x2d(r29)	198: FUN_80134388(bVar1,iVar8,(&pgVar15->vehicle_select_index_table)[(char)pbVar13[0x2d]]);
+8002a03c		addi r24,r3,0x10a	211: FUN_80133fa8(bVar1,(&(pgVar3->menu_vehicle_data).vehicle_select_index_table)
+80535b48		db ?? (gmGlobalVehicleMenuTable.vehicle_select_index_table)	gmGlobal.menu_vehicle_data.vehicle_select_index_table
